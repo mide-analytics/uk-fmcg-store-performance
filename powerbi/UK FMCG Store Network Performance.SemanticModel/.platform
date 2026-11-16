@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "UK FMCG Store Network Performance"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "f08d4816-2fd6-4035-9e8f-1f4239e4f64b"
+  }
+}

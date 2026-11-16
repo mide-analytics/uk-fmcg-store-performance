@@ -1,0 +1,11 @@
+"""Shared FMCG report palette."""
+
+NAVY = "#11284B"
+INK = "#172D4B"
+MUTED = "#506581"
+CANVAS = "#EFF4FA"
+WHITE = "#FFFFFF"
+BLUE = "#2358C8"
+TEAL = "#007F80"
+ORANGE = "#B84D1C"
+PURPLE = "#7143B5"
