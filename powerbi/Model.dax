@@ -1,0 +1,33 @@
+-- DAX measures exported from the Power BI semantic model, grouped by table.
+-- Create each one as a New measure on the table named in its section header.
+
+-- ===== Table: Weekly Sales =====
+Net sales = SUM('Weekly Sales'[Sales Pence]) / 100
+-- format: £#,0;−£#,0
+
+Prior-year sales = SUM('Weekly Sales'[Prior Sales Pence]) / 100
+-- format: £#,0;−£#,0
+
+Sales target = SUM('Weekly Sales'[Target Pence]) / 100
+-- format: £#,0;−£#,0
+
+Sales vs prior year = DIVIDE([Net sales] - [Prior-year sales], [Prior-year sales])
+-- format: +0.0%;−0.0%;0.0%
+
+Sales vs target = DIVIDE([Net sales] - [Sales target], [Sales target])
+-- format: +0.0%;−0.0%;0.0%
+
+Gross margin = DIVIDE(SUM('Weekly Sales'[Profit Pence]), SUM('Weekly Sales'[Sales Pence]))
+-- format: 0.0%
+
+Units sold = SUM('Weekly Sales'[Units])
+-- format: #,0
+
+Promo sales share = DIVIDE(SUM('Weekly Sales'[Promo Pence]), SUM('Weekly Sales'[Sales Pence]))
+-- format: 0.0%
+
+Stores = DISTINCTCOUNT('Weekly Sales'[Store])
+-- format: #,0
+
+Net sales per store = DIVIDE([Net sales], [Stores])
+-- format: £#,0;−£#,0

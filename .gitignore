@@ -4,3 +4,23 @@ __pycache__/
 .pbi/
 *.twbr
 *.twb~
+
+# Power BI and Tableau project files are kept private (dashboards are published separately)
+*.pbip
+*.pbix
+*.pbit
+*.pbir
+*.pbism
+*.tmdl
+model.bim
+report.json
+*.Report/
+*.SemanticModel/
+.pbi/
+*.twb
+*.twbx
+*.twbr
+*.twb~
+*.tds
+*.tdsx
+*.hyper

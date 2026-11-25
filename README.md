@@ -20,10 +20,12 @@ The [case study](docs/case-study.md) follows a weekly trading review from the fu
 | Retailer performance | [Network overview](docs/screenshots/powerbi-overview.png) | [Network overview](docs/screenshots/tableau-overview.png) |
 | Store network | [London drill-down](docs/screenshots/powerbi-london.png) | [London drill-down](docs/screenshots/tableau-london.png) |
 
-## Open the reports
+## About the reports
 
-- [Power BI project](powerbi/UK%20FMCG%20Store%20Network%20Performance.pbip). Select **Refresh now** on first open if Desktop has no local cache. The model contains the simulated data and can load without an external CSV. Use the retailer, region, store format and category slicers on their respective pages.
-- [Tableau workbook](tableau/UK%20FMCG%20Store%20Network%20Performance.twbx). The Hyper extract is packaged. Select the retailer, region or category bars identified on each dashboard to filter its other views. Press Esc to clear selections.
+The Power BI and Tableau project files are kept private and are not in this repository. The interactive dashboards will be published separately for viewing; the screenshots and build notes here document them.
+
+- [Power BI build notes](powerbi/README.md), with the [DAX measures](powerbi/Model.dax) and [Power Query](powerbi/WeeklySales.pq). The model embeds the simulated data, so it loads without an external CSV. Each page has retailer, region, store format or category slicers.
+- [Tableau build notes](tableau/README.md). The workbook packages a Hyper extract. Selecting the retailer, region or category bars on each dashboard filters its other views; Esc clears the selection.
 
 ## Measures
 

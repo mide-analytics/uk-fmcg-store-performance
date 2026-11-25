@@ -33,6 +33,6 @@ The two reports use 27,300 simulated **store × week × category** records. Each
 | --- | --- | --- |
 | Network overview | [Screenshot](screenshots/powerbi-overview.png) | [Screenshot](screenshots/tableau-overview.png) |
 | London drill-down | [Screenshot](screenshots/powerbi-london.png) | [Screenshot](screenshots/tableau-london.png) |
-| Native report | [Power BI project](../powerbi/UK%20FMCG%20Store%20Network%20Performance.pbip) | [Tableau workbook](../tableau/UK%20FMCG%20Store%20Network%20Performance.twbx) |
+| Build notes | [Power BI build notes](../powerbi/README.md) | [Tableau build notes](../tableau/README.md) |
 
 See the [project README](../README.md) for the remaining measure definitions and rebuild instructions.
